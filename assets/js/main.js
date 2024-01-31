@@ -192,7 +192,7 @@ $("#contactform").submit((e) => {
     alert("Please fill all required fields.");
   } else {
     $.ajax({
-      url: "https://script.google.com/macros/s/AKfycbw4bXzSLeQd2JqqWopLScmWBwpTgBDOl6lNo7gvbw1mrqSFt-yGArCJE0vHinYYn8oAGw/exec",
+      url: "https://script.google.com/macros/s/AKfycbymmxbFbIjKZ4Amqa0Oacr-jONJtdPfYjMNzpmCfB4x_P1jfC8eDSILedlKwsOYYTtg/exec",
       data: $("#contactform").serialize(),
       method: "post",
       success: function (response) {
